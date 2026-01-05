@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.worker_team_wrapper {
+	padding: 80px 0;
+	text-align: center;
+}
+
+.worker_team_wrapper .team_head {
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.worker_team_wrapper .team_head h2 {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.worker_team_wrapper .team_head p {
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+.worker_team_wrapper .worker_team_item {
+	margin-top: 40px;
+}
+
+.worker_team_wrapper .worker_team_item figure {
+	position: relative;
+	margin: 0;
+}
+
+.worker_team_wrapper .worker_team_item:hover figure .worker_team_social {
+	visibility: visible;
+	opacity: 1;
+	transform: rotateX(0deg);
+	bottom: 0;
+}
+
+.worker_team_wrapper .worker_team_item figure .worker_team_social {
+	background: #F7941D;
+	padding: 30px 40px;
+	color: #ffffff;
+	position: absolute;
+	bottom: -25%;
+	left: 0;
+	right: 0;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.4s all ease-in-out;
+	transform: rotateX(91deg);
+}
+
+.worker_team_wrapper .worker_team_item figure .worker_team_social {
+	font-size: 15px;
+}
+
+.worker_team_wrapper .worker_team_item figure .worker_team_social ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.worker_team_wrapper .worker_team_item figure .worker_team_social ul li a {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.worker_team_wrapper .worker_team_item .worker_team_content h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.worker_team_wrapper .worker_team_item .worker_team_content span {
+    color: #0000009c;
+}
+
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) { 
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+		
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+}
